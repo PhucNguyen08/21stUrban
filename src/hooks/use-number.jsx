@@ -43,7 +43,7 @@ export default function UseNumber() {
   };
 
   const handleInputProduct = e => {
-    dispatch({ type: 'INPUT', value: e.target.value });
+    dispatch({ type: 'INPUT', value: +e.target.value });
   };
 
   return {
