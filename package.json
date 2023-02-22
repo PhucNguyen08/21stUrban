@@ -1,0 +1,33 @@
+{
+  "name": "first-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@reduxjs/toolkit": "^1.9.2",
+    "@tippyjs/react": "^4.2.6",
+    "animate.css": "^4.1.1",
+    "antd": "^5.0.1",
+    "classnames": "^2.3.2",
+    "mongodb": "^4.11.0",
+    "next": "13.0.1",
+    "next-redux-wrapper": "^8.1.0",
+    "node-sass": "^7.0.3",
+    "normalize.css": "^8.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.5",
+    "react-toastify": "^9.1.1",
+    "sass": "^1.55.0"
+  }
+}

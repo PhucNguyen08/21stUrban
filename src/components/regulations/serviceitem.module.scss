@@ -1,0 +1,15 @@
+.item {
+  display: flex;
+
+  .promise {
+    padding: 0 10px 0 20px;
+
+    h4 {
+      font-size: 2rem;
+    }
+
+    p {
+      padding-top: 15px;
+    }
+  }
+}

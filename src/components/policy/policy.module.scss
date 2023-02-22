@@ -1,0 +1,24 @@
+.wrapper {
+  p {
+    margin-bottom: 0;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  .title {
+    text-decoration: underline;
+  }
+
+  .list {
+    padding: 15px 55px 0 60px;
+    font-size: 1.4rem;
+
+    .name {
+      font-weight: bold;
+    }
+
+    .info {
+      padding: 5px 0;
+    }
+  }
+}

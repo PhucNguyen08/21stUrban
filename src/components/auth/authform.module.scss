@@ -1,0 +1,94 @@
+.wrapper {
+  border-top: 1px solid #ccc;
+
+  .container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      display: block;
+      margin-top: 2rem;
+      text-decoration: underline;
+      cursor: pointer;
+
+      &:hover {
+        color: var(--primary-color);
+      }
+    }
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .control {
+    margin-top: 2rem;
+
+    label {
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    input {
+      width: 70%;
+      outline: none;
+      border: 1px solid var(--color-border);
+      padding: 6px 12px;
+      border-radius: 3px;
+
+      &:focus {
+        border-color: var(--black-color);
+      }
+    }
+  }
+
+  .btn {
+    margin: 2rem 0;
+    background-color: var(--black-color);
+    padding: 10px 15px;
+    color: var(--white-color);
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+
+    &:hover {
+      border-color: var(--primary-color);
+    }
+  }
+
+  .btn-login {
+    width: 60%;
+  }
+
+  .btn-register {
+    padding: 10px 20px;
+  }
+
+  .btn-cancel {
+    margin-left: 2rem;
+    background-color: var(--white-color);
+    color: var(--black-color);
+  }
+
+  .description {
+    margin-top: 2rem;
+    display: block;
+    width: 60%;
+    line-height: 1.8;
+    color: #666666;
+  }
+
+  .login,
+  .register,
+  .reset {
+    margin-left: 30px;
+  }
+
+  .error-text {
+    margin-top: 1rem;
+    color: red;
+  }
+}

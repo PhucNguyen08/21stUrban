@@ -1,0 +1,66 @@
+.block {
+  .aside-item {
+    margin-bottom: 10px;
+
+    .title {
+      position: relative;
+      padding-right: 15px;
+      cursor: pointer;
+
+      h3 {
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        color: #333;
+        font-weight: 700;
+      }
+
+      .collapsible {
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: center;
+        height: 20px;
+        transform: rotateX(0deg);
+        transition: all 0.5s;
+      }
+
+      .rotate {
+        transform: rotateX(180deg);
+      }
+    }
+
+    .aside-content {
+      padding-top: 15px;
+      margin-bottom: 10px;
+      display: block;
+      transition: all 0.5s;
+
+      li {
+        padding: 5px 0;
+
+        span {
+          display: inline-block;
+          padding-left: 5px;
+          transform: translateY(-2px);
+        }
+      }
+
+      .tag-name {
+        display: inline-block;
+        margin-right: 5px;
+      }
+
+      input[type='radio'],
+      input[type='checkbox'] {
+        accent-color: #333;
+      }
+    }
+
+    .aside-hide {
+      width: 0;
+      height: 0;
+      display: none;
+      transition: all 0.5s;
+    }
+  }
+}

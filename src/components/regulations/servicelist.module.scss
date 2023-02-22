@@ -1,0 +1,14 @@
+.wrapper {
+  border-top: 1px solid #eee;
+  margin-top: 3rem;
+
+  .container {
+    width: 80%;
+    margin: 6rem auto;
+
+    .list {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

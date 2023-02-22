@@ -1,0 +1,16 @@
+.wrapper {
+  width: 100%;
+
+  select {
+    width: 100%;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px #d9d9d9;
+
+    &:focus {
+      box-shadow: 0 0 0 2px #338dbc;
+      outline: none;
+    }
+  }
+}

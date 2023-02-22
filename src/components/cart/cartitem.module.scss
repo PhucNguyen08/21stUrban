@@ -1,0 +1,158 @@
+.wrapper {
+  border: 1px solid #ebebeb;
+
+  .row {
+    border: 1px solid #ebebeb;
+    padding: 5px 0;
+
+    &:first-child {
+      border-top: none;
+    }
+  }
+
+  .product {
+    display: flex;
+
+    .image {
+      width: 109px;
+      height: 109px;
+      margin-left: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .detail {
+      display: flex;
+      width: 100%;
+
+      .name {
+        width: 52%;
+        padding: 19px 0 10px 10px;
+        font-size: 1.3rem;
+      }
+
+      .title {
+        font-weight: 500;
+
+        &:hover {
+          color: var(--primary-color);
+        }
+      }
+
+      .size,
+      .btn-delete {
+        margin-top: 10px;
+        display: block;
+        font-size: 1.2rem;
+      }
+
+      .btn-delete {
+        cursor: pointer;
+        background-color: transparent;
+        outline: none;
+        padding: 5px 10px 5px 0;
+        color: var(--red-color);
+      }
+    }
+
+    .initial-price,
+    .actions,
+    .total-price {
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .initial-price,
+    .total-price {
+      color: var(--red-color);
+      font-weight: bold;
+      font-size: 1.4rem;
+    }
+
+    @media (max-width: 768px) {
+      .detail {
+        position: relative;
+        display: block;
+
+        .initial-price,
+        .actions {
+          display: block;
+          width: auto;
+          padding: 10px;
+        }
+
+        .total-price {
+          display: block;
+          width: auto;
+          text-align: right;
+          padding: 5px 0;
+        }
+      }
+
+      .btn-delete {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    margin-top: 10px;
+  }
+}
+
+.pay {
+  margin: 30px 0;
+  font-size: 1.4rem;
+
+  .pay__total {
+    margin-left: 75%;
+
+    .pay__total-price {
+      display: flex;
+      justify-content: space-between;
+
+      span {
+        color: #212529;
+      }
+
+      .price {
+        color: var(--red-color);
+        font-weight: bold;
+      }
+    }
+
+    .pay__total-btn {
+      margin-top: 10px;
+
+      button {
+        background-color: var(--black-color);
+        color: var(--white-color);
+        display: block;
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+        border-radius: 3px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .pay__total {
+      margin: 0;
+    }
+  }
+}

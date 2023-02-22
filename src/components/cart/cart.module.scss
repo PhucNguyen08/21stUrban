@@ -1,0 +1,49 @@
+.wrapper {
+  border-top: 1px solid #ccc;
+
+  .text {
+    text-align: left;
+    font-weight: 500;
+    color: #212529;
+    padding-top: 5px;
+  }
+
+  .header-info {
+    display: flex;
+    padding: 7px 0;
+    border: solid 1px #ebebeb;
+    border-bottom: none;
+    font-weight: bold;
+    margin-top: 10px;
+
+    div {
+      &:nth-child(1) {
+        width: 51%;
+        text-align: left;
+        padding-left: 10px;
+      }
+
+      &:nth-child(2),
+      &:nth-child(3),
+      &:nth-child(4) {
+        width: 16%;
+        text-align: center;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .header-info {
+      display: none;
+    }
+  }
+}
+
+.message {
+  text-align: center;
+  margin: 30px 0;
+
+  p {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,139 @@
+.wrapper {
+  border-left: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  background-color: #fafafa;
+
+  .content {
+    width: 85%;
+    padding: 50px 30px;
+
+    .detail {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+
+      .img {
+        width: 64px;
+        height: 64px;
+        position: relative;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 10px;
+        }
+
+        .quantity {
+          position: absolute;
+          top: -8px;
+          right: -9px;
+          font-weight: 500;
+          background-color: rgba(153, 153, 153, 0.9);
+          border-radius: 50%;
+          padding: 2px 7px;
+          color: var(--white-color);
+          font-size: 1.4rem;
+        }
+      }
+
+      .name {
+        padding: 5px;
+        width: 50%;
+
+        span {
+          display: block;
+
+          &:last-child {
+            padding-top: 10px;
+          }
+        }
+      }
+
+      .price {
+        padding: 5px;
+      }
+    }
+    .discount {
+      border-top: 1px solid #e1e1e1;
+      padding: 21px 0;
+      display: flex;
+      position: relative;
+
+      input {
+        flex: 1;
+        box-shadow: 0 0 0 1px #d9d9d9;
+        background-color: #fff;
+        color: #333;
+        border-radius: 4px;
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 13px 39px 13px 11px;
+        word-break: normal;
+        line-height: 1.6;
+      }
+
+      button {
+        display: inline-block;
+        padding: 10px 20px;
+        cursor: default;
+        background-color: #c8c8c8;
+        color: var(--white-color);
+        border-radius: 4px;
+        text-align: center;
+        font-weight: 500;
+        margin-left: 15px;
+
+        &:hover {
+          background-color: var(--black-color);
+        }
+      }
+    }
+
+    .line-lists {
+      margin-top: 5px;
+
+      .line-item {
+        border-top: 1px solid #e1e1e1;
+      }
+
+      .price-info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        &:first-child {
+          padding-top: 10px;
+        }
+
+        span {
+          font-size: 1.4rem;
+          color: #717171;
+        }
+
+        .total-price {
+          font-size: 2.4rem;
+        }
+      }
+
+      .description {
+        border: 2px solid var(--black-color);
+        margin-top: 20px;
+        padding: 10px;
+
+        p {
+          margin-bottom: 0;
+          text-align: justify;
+        }
+      }
+    }
+  }
+
+  .error-text {
+    color: var(--red-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
