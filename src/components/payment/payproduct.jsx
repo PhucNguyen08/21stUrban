@@ -80,7 +80,6 @@ export default function PayProduct() {
             <div className={cx('price-info')}>
               <span>Tổng cộng</span>
               <span className={cx('total-price')}>
-                {valueDiscount}
                 {formatter.format(totalMoney * (1 - valueDiscount / 100))}
               </span>
             </div>
