@@ -1,4 +1,6 @@
 .wrapper {
+  color: var(--black-color);
+
   p {
     margin-bottom: 0;
     line-height: 1.6;
@@ -19,6 +21,12 @@
 
     .info {
       padding: 5px 0;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .list {
+      padding: 10px 0 10px 20px;
     }
   }
 }

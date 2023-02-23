@@ -40,10 +40,15 @@
 
       .title {
         font-weight: 500;
+        color: var(--black-color);
 
         &:hover {
           color: var(--primary-color);
         }
+      }
+
+      .size {
+        color: var(--black-color);
       }
 
       .size,

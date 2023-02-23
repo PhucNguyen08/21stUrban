@@ -5,6 +5,7 @@
   .title {
     padding-top: 15px;
     text-align: center;
+    color: var(--black-color);
   }
 
   .form {
@@ -15,11 +16,13 @@
     h3 {
       font-size: 1.9rem;
       margin-bottom: 5px;
+      color: var(--black-color);
     }
 
     p {
       color: #333333;
       line-height: 1.6;
+      color: var(--black-color);
     }
 
     label,

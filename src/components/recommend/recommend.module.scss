@@ -4,6 +4,7 @@
   .title {
     margin-top: 10px;
     text-align: center;
+    color: var(--black-color);
   }
 
   .article {
@@ -12,6 +13,7 @@
       text-align: justify;
       margin-bottom: 0;
       padding: 5px 0;
+      color: var(--black-color);
 
       span {
         font-weight: bold;

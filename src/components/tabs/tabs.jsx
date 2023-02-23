@@ -59,7 +59,7 @@ export default function TabsProduct(props) {
           >
             <span className={cx('size-title')}>Bảng size giày MLB</span>
             <div className={cx('img')}>
-              <Image src={Size} width={900} height={784} alt="Size" />
+              <Image src={Size} fill alt="Size" />
             </div>
             <span className={cx('origin')}>
               Nguồn: MLB-Korea - Hiệu chỉnh: MLB Vietnam
