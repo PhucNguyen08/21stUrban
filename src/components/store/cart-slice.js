@@ -81,7 +81,10 @@ const cartSlice = createSlice({
       );
     },
     resetCart(state) {
-      state = initialState;
+      state.items = [];
+      state.totalQuantity = 0;
+      state.totalPrice = 0;
+      state.isCart = false;
     },
   },
 });
