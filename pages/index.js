@@ -18,6 +18,10 @@ export default function HomePage(props) {
         <title>21ST URBAN</title>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="21ST URBAN cung cấp giày MLB chính hãng"
+        />
         <link rel="icon" href="/favicon-logo.ico" />
       </Head>
       <Carousel dataCarousel={props.carousel}></Carousel>

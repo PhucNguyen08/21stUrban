@@ -11,6 +11,10 @@ export default function Products(props) {
         <title>Danh Mục</title>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="progressive retail concept store with a focus on smart styling and storytelling."
+        />
         <link rel="icon" href="/favicon-logo.ico" />
       </Head>
       <Category listProducts={props.products}></Category>
