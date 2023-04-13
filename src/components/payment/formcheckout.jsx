@@ -63,6 +63,8 @@ export default function FormCheckOut() {
   const [ward, setWard] = useState();
   const [noteValue, setNoteValue] = useState('');
 
+  console.log(provinces);
+
   useEffect(() => {
     getAllProvinces()
       .then(data => setProvinces(data))
