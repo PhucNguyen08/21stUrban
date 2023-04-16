@@ -11,6 +11,7 @@
         align-items: center;
         background-color: var(--white-color);
         cursor: pointer;
+        color: var(--black-color);
     }
 
     .btn--width {
@@ -19,12 +20,9 @@
         padding: 0;
     }
 
-    input {
-        background-color: var(--white-color);
-    }
-
     .quantity-input {
         width: 44px;
+        background-color: var(--white-color);
         text-align: center;
         border-top: 1px solid rgba(0, 0, 0, 0.09);
         border-bottom: 1px solid rgba(0, 0, 0, 0.09);
