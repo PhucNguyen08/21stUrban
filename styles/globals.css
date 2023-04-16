@@ -2,31 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --default-product-height: 369px;
-  --default-header-height: 80px;
-  --primary-color: #2e6bc6;
-  --white-color: #fff;
-  --red-color: #ff0000;
-  --black-color: #000;
-  --default-margin-top: 5rem;
-  --color-border: #dedede;
-  --yellow-color: #ffff00;
-  --secondary-color: #942319;
+    --default-product-height: 369px;
+    --default-header-height: 80px;
+    --primary-color: #2e6bc6;
+    --white-color: #fff;
+    --red-color: #ff0000;
+    --black-color: #000;
+    --default-margin-top: 5rem;
+    --color-border: #dedede;
+    --yellow-color: #ffff00;
+    --secondary-color: #942319;
 }
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 body {
-  font-family: 'Encode Sans', sans-serif;
-  font-size: 1.6rem;
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 1.6rem;
 }
 
 h1,
@@ -35,64 +35,64 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
 }
 p {
-  margin-top: 0;
-  margin-bottom: 1em;
+    margin-top: 0;
+    margin-bottom: 1em;
 }
 
 ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 button,
 input,
 [tabindex] {
-  outline: none;
-  border: none;
+    outline: none;
+    border: none;
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+    html {
+        color-scheme: dark;
+    }
+    body {
+        color: white;
+        background: black;
+    }
 }
 
 input[type='number']::-webkit-inner-spin-button,
 input[type='number']::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
 }
 
 .spinner-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--white-color);
-  z-index: 30;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-color);
+    z-index: 30;
 }
 
 .spinner {
-  margin: 0 auto;
+    margin: 0 auto;
 }
